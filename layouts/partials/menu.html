@@ -1,7 +1,7 @@
 <div id="menu">
     <ul>
       {{ range .Site.Sections }}
-        <li><a href="{{ .URL }}"> {{ .Title }}</a></li>
+        <li> {{ .Title }}</li>
         <ul>
           {{ range .Pages }}
             <li><a href="{{ .URL}}"> {{ .Title}} </a></li>
