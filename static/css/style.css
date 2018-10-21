@@ -1,0 +1,27 @@
+body{
+    background: lightgray;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    padding-left: 0;
+    text-align: left;
+}
+
+#content{
+    width: 60%;
+    margin: auto;
+}

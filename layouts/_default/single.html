@@ -2,11 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    {{ partial "includes" . }}
     <title>{{ .Title }}</title>
   </head>
   <body>
     {{ partial "header" .}}
     {{ partial "menu" .}}
-    {{ .Content }}
+    <div id="content">
+       {{ .Content }}
+    </div>
   </body>
 </html>
