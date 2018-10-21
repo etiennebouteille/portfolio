@@ -1,0 +1,4 @@
+baseURL = "http://etiennebouteille.com/"
+languageCode = "en-us"
+title = "Etienne Bouteille"
+pluralizeListTitles = false
