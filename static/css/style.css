@@ -12,8 +12,8 @@ h1 {
 }
 
 ul {
-    list-style-type: none;
     padding: 10px;
+    list-style-type: none;
 }
 
 li {
@@ -21,7 +21,18 @@ li {
     text-align: left;
 }
 
+#menu{
+    margin: auto;
+    position: absolute;
+    left: 10px;
+    width: 20%;
+}
+
 #content{
     width: 60%;
     margin: auto;
+}
+
+#content img{
+    max-height: 540px;
 }

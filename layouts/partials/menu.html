@@ -1,12 +1,14 @@
-<ul>
-  {{ range .Site.Sections }}
-    <li><a href="{{ .URL }}"> {{ .Title }}</a></li>
+<div id="menu">
     <ul>
-      {{ range .Pages }}
-        <li><a href="{{ .URL}}"> {{ .Title}} </a></li>
+      {{ range .Site.Sections }}
+        <li><a href="{{ .URL }}"> {{ .Title }}</a></li>
+        <ul>
+          {{ range .Pages }}
+            <li><a href="{{ .URL}}"> {{ .Title}} </a></li>
+          {{ end }}
+        </ul>
       {{ end }}
-    </ul>
-  {{ end }}
-    <li><a href="{{ .Site.BaseURL}}/about/">about</a></li>
-    <li><a href="{{ .Site.BaseURL}}/contact/">contact</a></li>
-</ul> 
+        <li><a href="{{ .Site.BaseURL}}/about/">about</a></li>
+        <li><a href="{{ .Site.BaseURL}}/contact/">contact</a></li>
+    </ul> 
+</div>
