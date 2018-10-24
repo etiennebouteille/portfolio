@@ -7,4 +7,4 @@ dimensions: "xx:xx"
 material: "concrete"
 ---
 
-this is the about page
+My name is Etienne
