@@ -1,5 +1,27 @@
 body{
     background: lightgray;
+    font-family: Sporting-Grotesque, Helvetica Neue, Arial, sans-serif;
+    font-weight: normal;
+}
+
+/*@font-face {
+    font-family: Terminal-Grotesque;
+    src: url(../fonts/Terminal-Grotesque.woff) format('woff'), url(../fonts/Terminal-Grotesque.woff2) format('woff2');
+    font-weight: 'normal';
+    font-style: normal
+}*/
+
+@font-face {
+    font-family: Sporting-Grotesque;
+    src: url(../fonts/Sporting_Grotesque-Regular_web.woff) format('woff'), url(../fonts/Sporting_Grotesque-Regular_web.woff2) format('woff2');
+    font-weight: 'normal';
+    font-style: normal
+}
+
+@font-face {
+    font-family: Sporting-Grotesque;
+    src: url(../fonts/Sporting_Grotesque-Bold_web.woff) format('woff'), url(../fonts/Sporting_Grotesque-Bold_web.woff2) format('woff2');
+    font-weight: 'bold';
 }
 
 a {
@@ -7,9 +29,9 @@ a {
     color: black;
 }
 
-h1 {
+/*h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-}
+}*/
 
 ul {
     padding: 10px;
@@ -35,4 +57,9 @@ li {
 
 #content img{
     max-height: 540px;
+}
+
+
+h1 strong{
+    font-weight: bold;
 }
