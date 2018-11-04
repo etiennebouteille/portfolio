@@ -8,8 +8,6 @@
   <body>
     {{ partial "header" .}}
     {{ partial "menu" .}}
-    <div id="content">
-       {{ .Content }}
-    </div>
+    {{ partial "pagecontent" .}}
   </body>
 </html>

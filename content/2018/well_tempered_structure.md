@@ -5,6 +5,7 @@ draft: false
 year: "2018"
 dimensions: ""
 material: "Room scale virtual reality, screen, concrete"
+frontpage : false 
 ---
 
 ![](/img/well_tempered_structure1.png)

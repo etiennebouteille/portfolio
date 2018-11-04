@@ -5,6 +5,7 @@ draft: false
 year: "2017"
 dimensions: ""
 material: "Custom software, ink on paper"
+frontpage : false 
 ---
 
 {{<youtube -_ARPbbd4KU>}}

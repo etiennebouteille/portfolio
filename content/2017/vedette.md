@@ -5,6 +5,7 @@ draft: false
 year: "2017"
 dimensions: "74 cmm x 165 cm"
 material: "Refrigerator, arduino, speakers, light system, smoke machine"
+frontpage : false 
 ---
 
 {{<vimeo 242450076>}}

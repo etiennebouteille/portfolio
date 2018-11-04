@@ -5,6 +5,7 @@ draft: false
 year: "2018"
 dimensions: ""
 material: "Augmented reality application"
+frontpage : false 
 ---
 
 ![](/img/Digital_intimacy1.png)

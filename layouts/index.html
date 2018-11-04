@@ -8,5 +8,11 @@
   <body>
     {{ partial "header" . }}
     {{ partial "menu" . }} 
+    {{ range ((.Pages.ByParam "frontpage"))  }}
+    {{ $frontpage := .Params.frontpage }}
+      {{ if eq $frontpage  true}}
+        {{ partial "pagecontent" . }}
+      {{ end }}
+    {{ end }}
   </body>
 </html>

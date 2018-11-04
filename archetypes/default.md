@@ -5,5 +5,6 @@ draft: false
 year: "2018"
 dimensions: "xx:xx"
 material: "concrete"
+frontpage : false 
 ---
 

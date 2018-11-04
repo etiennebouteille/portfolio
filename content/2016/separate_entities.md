@@ -5,6 +5,7 @@ draft: false
 year: "2016"
 dimensions: "00:40 1920x1080p25"
 material: "Dual channel HD video"
+frontpage : false 
 ---
 
 {{<vimeo 154156198>}}
