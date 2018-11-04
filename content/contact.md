@@ -8,4 +8,11 @@ material: "concrete"
 frontpage: false
 ---
 
-COntact my on twitter ! 
+Hi my Name is Etienne. I am a media artist. Currently employed at Humans since 1982.
+
+
+[twitter](https://twitter.com/bouteillax)
+
+[instagram](https://www.instagram.com/bouteillax/)
+
+[vimeo](https://vimeo.com/user9596519)
