@@ -8,7 +8,10 @@ material: "Augmented reality application"
 frontpage : false 
 ---
 
-![](/img/Digital_intimacy1.png)
+![Digital Intimacy, Etienne Bouteillé, 2018](/img/Digital_intimacy1.png)
+![Digital Intimacy, Etienne Bouteillé, 2018](/img/Digital_intimacy2.png)
+![Digital Intimacy, Etienne Bouteillé, 2018](/img/Digital_intimacy3.png)
+![Digital Intimacy, Etienne Bouteillé, 2018](/img/Digital_intimacy5.png)
 
 **Digital Intimacy** is a narrative AR app exploring the themes of data collection and the involvement of the body in our relation to technology. The idea came to be when prompted by Google Maps to do a figure 8 gesture with my phone in order to enhance the compass precision. For one of the rst me my phone had go en me to move around in the real world more than finger. But what if, not content with aggregating our personal information, Google also stored and analysed the way we move in the world?
 
