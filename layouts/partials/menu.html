@@ -1,12 +1,18 @@
 <div id="menu">
     <ul>
-      {{ range .Site.Sections }}
-        <li> {{ .Title }}</li>
-        <ul>
-          {{ range .Pages }}
-            <li><a href="{{ .URL}}"> {{ .Title}} </a></li>
-          {{ end }}
-        </ul>
+      {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+          <li> {{ .Title }}</li>
+          <ul>
+            {{ range .Children }}
+              <li><a href="{{ .URL}} "> {{ .Title }} </a></li>
+            {{ end }}
+          </ul>
+          {{ else }}
+          <li>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
       {{ end }}
         <li><a href="/about/">about</a></li>
         <li><a href="/contact/">contact</a></li>
