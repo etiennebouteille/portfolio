@@ -2,6 +2,9 @@
 title: "Vedette"
 date: 2018-10-20T16:35:40+02:00
 draft: false
+menu:
+    main:   
+        parent: 2017
 year: "2017"
 dimensions: "74 cmm x 165 cm"
 material: "Refrigerator, arduino, speakers, light system, smoke machine"

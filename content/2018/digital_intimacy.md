@@ -2,6 +2,9 @@
 title: "Digital intimacy"
 date: 2018-10-20T16:34:01+02:00
 draft: false
+menu:
+    main:   
+        parent: 2018
 year: "2018"
 dimensions: ""
 material: "Augmented reality application"

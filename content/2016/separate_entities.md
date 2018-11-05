@@ -2,6 +2,9 @@
 title: "Separate entities"
 date: 2018-10-20T16:35:56+02:00
 draft: false
+menu:
+    main:   
+        parent: 2016
 year: "2016"
 dimensions: "00:40 1920x1080p25"
 material: "Dual channel HD video"

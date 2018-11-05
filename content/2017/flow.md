@@ -2,6 +2,9 @@
 title: "Flow"
 date: 2018-10-20T16:34:19+02:00
 draft: false
+menu:
+    main:   
+        parent: 2017
 year: "2017"
 dimensions: ""
 material: "Custom software, ink on paper"

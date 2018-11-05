@@ -2,6 +2,9 @@
 title: "couille.exe"
 date: 2018-10-20T16:20:32+02:00
 draft: false
+menu:
+    main:   
+        parent: 2018 
 year: "2018"
 dimensions: ""
 material: "Raspberry pi, custom software"
