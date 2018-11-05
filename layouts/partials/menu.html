@@ -6,7 +6,7 @@
           <li> {{ .Name }} </li>
           <ul>
             {{ range .Children }}
-              <li><a href="{{ .URL}} "> {{ .Title }} </a></li>
+              <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL}} "> {{ .Title }} </a></li>
             {{ end }}
           </ul>
           {{ else }}

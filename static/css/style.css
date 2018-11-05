@@ -48,6 +48,10 @@ li {
     text-align: left;
 }
 
+li.active a {
+    color: #aaaaaa;
+}
+
 #menu{
     margin: auto;
     margin-top:0;
