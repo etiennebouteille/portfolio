@@ -3,7 +3,7 @@
       {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
-          <li> {{ .Name }} </li>
+          <li class="section"> {{ .Name }} </li>
           <ul>
             {{ range .Children }}
               <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL}} "> {{ .Title }} </a></li>
@@ -15,6 +15,6 @@
           </li>
           {{ end }}
       {{ end }}
-        <li><a href="/contact/">contact</a></li>
+        <li class="section, hardcoded"><a href="/contact/">CONTACT</a></li>
     </ul> 
 </div>

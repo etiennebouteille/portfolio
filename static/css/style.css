@@ -27,14 +27,7 @@ body{
 
 a {
     color: black;
-}
-
-ul a {
-   text-decoration: none;
-}
-
-h1 a {
-   text-decoration: none;
+    text-decoration: none;
 }
 
 ul {
@@ -48,29 +41,40 @@ li {
     text-align: left;
 }
 
+.section {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+
 li.active a {
     color: #aaaaaa;
 }
 
 #menu{
+    font-size: 0.9em;
     margin: auto;
     margin-top:0;
     position: absolute;
-    left: 10px;
+    left: 16px;
     width: 20%;
 }
 
 #content{
-    width: 60%;
-    margin: auto;
+    position: absolute;
+    top: 0;
+    width: 70%;
+    margin-left: 20%;
 }
 
 #content img{
     max-width: 100%;
-    max-height: 600px;;
+    max-height: 611px;;
 }
 
 h1{
+    display: inline-block;
+    font-size: 1.4em;
     font-weight: normal;
     letter-spacing: -1px;
 }
