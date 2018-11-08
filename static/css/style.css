@@ -67,6 +67,17 @@ li.active a {
     margin-left: 20%;
 }
 
+#content a {
+    border-bottom: 2px solid black;
+    display: inline-block;
+    line-height: 0.81;
+    text-shadow:
+    1px 1px #f9f9f9,
+    -1px 1px #f9f9f9,
+    2px 0 0 #f9f9f9,
+    -2px 0 0  #f9f9f9;
+}
+
 #content img{
     max-width: 100%;
     max-height: 611px;;
