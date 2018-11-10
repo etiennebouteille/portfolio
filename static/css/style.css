@@ -118,7 +118,7 @@ h1 strong{
     }
 }
 
-@media only screen and (max-width: 300px) {
+@media (min-width: 320px) and (max-width: 850px) {
     #logo{
         margin: auto;
         display: block;
