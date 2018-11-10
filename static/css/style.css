@@ -25,6 +25,10 @@ body{
     font-style: normal
 }
 
+.red{
+    background-color: red;
+}
+
 a {
     color: black;
     text-decoration: none;
