@@ -94,6 +94,10 @@ h1 strong{
     font-weight: bold;
 }
 
+#smallscreen {
+    display: none;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1553px) {
@@ -104,4 +108,43 @@ h1 strong{
         width: 100%;
         max-height: none;
      }
+}
+
+@media only screen and (max-width: 1220px) {
+    #content {
+        width: 60%;
+        margin-left: initial; 
+        right: 5%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #logo{
+        margin: auto;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu {
+        position: relative;
+        width: auto;
+        text-align: center;
+    }
+
+    #menu ul{
+        display: none;
+    }
+
+    #content {
+        position: relative;
+        width: 75%;
+        margin: auto;
+        right: initial;
+    }
+
+    #smallscreen{
+        display: initial;
+        color: grey;
+    }
 }
