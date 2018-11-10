@@ -93,3 +93,15 @@ h1{
 h1 strong{
     font-weight: bold;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 1553px) {
+    #content {
+        width: 60%;
+    }
+     #content img {
+        width: 100%;
+        max-height: none;
+     }
+}

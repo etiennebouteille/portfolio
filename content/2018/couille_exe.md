@@ -12,7 +12,6 @@ frontpage : true
 ---
 
 ![Couille.exe Etienne Bouteillé, 2018](/img/couille_screen_2.jpg)
-![Couille.exe Etienne Bouteillé, 2018](/img/couille1.jpg)
 ![Couille.exe Etienne Bouteillé, 2018](/img/couille2.jpg)
 ![Couille.exe Etienne Bouteillé, 2018](/img/couille3.jpg)
 
