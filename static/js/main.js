@@ -1,22 +1,22 @@
 window.onload = function(){ 
-    var menu = document.getElementById("responsiveMenu")
+    var link = document.getElementById("responsiveLink")
+    var menu = document.getElementById("menu")
     var isMenuOpen= false;
 
     menu.onclick = function() {
-        console.log('Click just happened');
         toggleMenu();
     };
 
-
-
     function toggleMenu(){
         if (isMenuOpen) {
-            menu.classList.remove("red");
+            link.classList.remove("red");
+            menu.classList.remove("responsiveMenu");
             isMenuOpen = false;
             console.log("menu is closed");
         }
         else{
-            menu.classList.add("red");
+            link.classList.add("red");
+            menu.classList.add("responsiveMenu");
             isMenuOpen = true;
             console.log("menu is open");
         }

@@ -50,7 +50,6 @@ li {
     margin-top: 15px;
 }
 
-
 li.active a {
     color: #aaaaaa;
 }
@@ -98,7 +97,7 @@ h1 strong{
     font-weight: bold;
 }
 
-#smallscreen {
+#responsiveLink {
     display: none;
 }
 
@@ -137,7 +136,23 @@ h1 strong{
     }
 
     #menu ul{
+        margin-top: 0;
+    }
+
+    .section{
+        text-align: left;
+        height: 0;
+        margin: 0;
+    }
+
+    /* when the menu has not been opened, every ul is hidden */
+    .mainMenu ul{
         display: none;
+    }
+
+    /* once menu is open, this class take over and displays it */
+    .responsiveMenu ul{
+        display: initial;
     }
 
     #content {
@@ -147,7 +162,7 @@ h1 strong{
         right: initial;
     }
 
-    #smallscreen{
+    #responsiveLink{
         display: initial;
         color: grey;
     }
