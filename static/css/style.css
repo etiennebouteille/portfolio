@@ -101,6 +101,14 @@ h1 strong{
     display: none;
 }
 
+/* Description part in articles */
+#description p {
+    font-size: 0.9em;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1553px) {
@@ -157,7 +165,7 @@ h1 strong{
 
     #content {
         position: relative;
-        width: 75%;
+        width: 80%;
         margin: auto;
         right: initial;
     }
@@ -165,5 +173,9 @@ h1 strong{
     #responsiveLink{
         display: initial;
         color: grey;
+    }
+
+    #description p {
+        font-size: 0.8em;
     }
 }
