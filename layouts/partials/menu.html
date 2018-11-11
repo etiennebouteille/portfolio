@@ -6,7 +6,7 @@
           <li class="section"> {{ .Name }} </li>
           <ul>
             {{ range .Children }}
-              <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL}} "> {{ .Title }} </a></li>
+              <li class="article {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"><a href="{{ .URL}} "> {{ .Title }} </a></li>
             {{ end }}
           </ul>
           {{ else }}
@@ -17,5 +17,7 @@
       {{ end }}
         <li class="section hardcoded"><a href="/contact/">contact</a></li>
     </ul> 
-    <a href="#" id="responsiveLink" >menu</a>
+  <div id="responsiveLink">
+    <a href="#">menu</a>
+  </div>
 </div>

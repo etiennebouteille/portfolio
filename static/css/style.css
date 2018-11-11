@@ -25,10 +25,6 @@ body{
     font-style: normal
 }
 
-.red{
-    background-color: red;
-}
-
 a {
     color: black;
     text-decoration: none;
@@ -137,20 +133,29 @@ h1 strong{
         text-align: center;
     }
 
+    h1 {
+        margin-bottom: 0;
+    }
+
     #menu {
         position: relative;
         width: auto;
         text-align: center;
+        left: initial;
     }
 
-    #menu ul{
-        margin-top: 0;
+    #menu li{
+        padding-left: 16px;
+    }
+
+    #menu .article {
+        padding-left: 24px;
     }
 
     .section{
         text-align: left;
-        height: 0;
-        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 5px;
     }
 
     /* when the menu has not been opened, every ul is hidden */
@@ -160,7 +165,12 @@ h1 strong{
 
     /* once menu is open, this class take over and displays it */
     .responsiveMenu ul{
-        display: initial;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #menu.responsiveMenu {
+        margin-top: 18px;
     }
 
     #content {
@@ -171,7 +181,12 @@ h1 strong{
     }
 
     #responsiveLink{
-        display: initial;
+        display: block;
+        width: 100%;
+        margin-top:5px;
+    }
+
+    #responsiveLink a {
         color: grey;
     }
 

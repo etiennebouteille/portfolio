@@ -9,16 +9,12 @@ window.onload = function(){
 
     function toggleMenu(){
         if (isMenuOpen) {
-            link.classList.remove("red");
             menu.classList.remove("responsiveMenu");
             isMenuOpen = false;
-            console.log("menu is closed");
         }
         else{
-            link.classList.add("red");
             menu.classList.add("responsiveMenu");
             isMenuOpen = true;
-            console.log("menu is open");
         }
     }
 };
