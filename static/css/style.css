@@ -201,7 +201,7 @@ h1 strong{
 @keyframes fadeIn {
   0% {
     opacity: 0;
-    transform: translate3d(0, 3%, 0);
+    transform: translate3d(0, 2%, 0);
   }
 
   100% {
@@ -218,7 +218,7 @@ h1 strong{
 
   100% {
     opacity: 0;
-    transform: translate3d(0, 3%, 0);
+    transform: translate3d(0, -2%, 0);
   }
 }
 
@@ -244,13 +244,15 @@ h1 strong{
 
 .fadeIn {
     animation-name: fadeIn;
-    animation-duration: 2.5s;
+    animation-duration: 0.25s;
+    transition-timing-function: ease-out;
     animation-fill-mode: both;
 }
 
 .fadeOut {
     animation-name: fadeOut;
-    animation-duration: 2.5s;
+    animation-duration: 0.35s;
+    transition-timing-function: ease-in;
     animation-fill-mode: both;
 }
 
