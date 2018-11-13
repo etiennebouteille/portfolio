@@ -201,22 +201,24 @@ h1 strong{
 @keyframes fadeIn {
   0% {
     opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
     transform: translate3d(0, 3%, 0);
   }
 
   100% {
     opacity: 1;
     transform: none;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 3%, 0);
   }
 }
 
@@ -232,15 +234,27 @@ h1 strong{
   }
 }
 
+
 /** Basic styles for an animated element */
 .scene_element {
    animation-duration: 0.5s;
    transition-timing-function: ease-out;
    animation-fill-mode: both;
-
 }
 
-/** An element that fades in */
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+}
+
+.fadeOut {
+    animation-name: fadeOut;
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+}
+
+/** An element that fades in  */
 .scene_element--fadein {
    animation-name: fadeIn;
 }
@@ -255,3 +269,23 @@ h1 strong{
    animation-name: fadeInRight;
 }
 
+
+
+/** An element that fades in  */
+.scene_element--fadein {
+   animation-name: fadeIn;
+}
+
+/** An element that fades in and slides up */
+.scene_element--fadeinup {
+   animation-name: fadeInUp;
+}
+
+/** An element that fades in and slides from the right */
+.scene_element--fadeinright {
+   animation-name: fadeInRight;
+}
+
+.barba-container{
+    width: 100%;
+}

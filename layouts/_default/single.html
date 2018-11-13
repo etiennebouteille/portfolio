@@ -6,8 +6,10 @@
     <title>{{ .Title }} - Etienne Bouteillé</title>
   </head>
   <body>
-    {{ partial "header" .}}
-    {{ partial "menu" .}}
-    {{ partial "pagecontent" .}}
+    <div id="barba-wrapper">
+       {{ partial "header" .}}
+       {{ partial "menu" .}}
+       {{ partial "pagecontent" .}}
+    </div>
   </body>
 </html>
