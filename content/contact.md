@@ -8,7 +8,9 @@ material: "concrete"
 frontpage: false
 ---
 
-Hi my Name is Etienne. I am a media artist. Currently employed at Humans since 1982.
+Hi my name is Etienne. I am a media artist living and working in Stockholm. Currently employed at Humans since 1982.
+
+If you want to get in touch with ideas, questions or anything else, you can reach me at etienne.bouteille@gmail.com
 
 
 [twitter](https://twitter.com/bouteillax)
