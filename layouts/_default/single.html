@@ -7,9 +7,11 @@
   </head>
   <body>
     <div id="barba-wrapper">
-       {{ partial "header" .}}
-       {{ partial "menu" .}}
-       {{ partial "pagecontent" .}}
+      <div class="barba-container">
+         {{ partial "header" .}}
+         {{ partial "menu" .}}
+         {{ partial "pagecontent" .}}
+      </div>
     </div>
   </body>
 </html>
