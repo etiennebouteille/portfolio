@@ -8,7 +8,7 @@ material: "concrete"
 frontpage: false
 ---
 
-Hi my name is Etienne. I am a media artist living and working in Stockholm. Currently employed at Humans since 1982.
+Hi my name is Etienne. I am a media artist living in Chamonix and Lyon, France. Previously, I worked for [Humans since 1982](https://www.humanssince1982.com/) in Stockholm, and [Waltz Binaire](https://waltzbinaire.com/), in Berlin.
 
 If you want to get in touch with ideas, questions or anything else, you can reach me at etienne.bouteille@gmail.com
 
