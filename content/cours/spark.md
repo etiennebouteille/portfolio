@@ -54,6 +54,45 @@ La déformation est maintenant appliquée au visage.
 
 ![Deformation](/img/cours/spark/1-8.PNG)
 
+<br/>
+
+Exercice 2 :  Maquiller le visage
+===========
+
+Dans Photoshop, créer un nouveau document de taille 1024x1024 avec un fond transparent. *La taille est importante au bon fonctionnement de la texture.* 
+
+Importer dans le document une des deux textures du dossier faceMesh : *faceFeminine.jpg* ou *faceMasculine.jpg*. Cette texture nous servira de repère afin de savoir où peindre notre texture sur le visage.
+
+Créer un nouveau calque au dessus de la texture puis dessiner sur tout ou partie du visage.
+
+![Dessiner](/img/cours/spark/2-1.PNG)
+
+Cacher le calque de texture afin que le fond soit transparent. Exporter l'image au format PNG afin de conserver la transparence.
+
+![Exporter](/img/cours/spark/2-2.PNG)
+
+Dans SparkAR, importer la texture de la même manière que vous avez importé le masque précédemment.
+
+![Add asset](/img/cours/spark/1-4.PNG)
+
+Créer un nouveau materiau qui va contenir le maquillage. Add Asset > Material. Puis renommer le materiau en "maquillage".
+
+![Materiau](/img/cours/spark/2-3.PNG)
+
+Sélectionner le nouveau materiau, puis dans le panneau de droite changer le type de Shader en "Face Paint" et appliquer la texture de maquillage.
+
+![Add asset](/img/cours/spark/2-5.PNG)
+
+Créer un nouveau FaceMesh qui servira uniquement pour le maquillage. Clic droit sur FaceTracker0 > Add > FaceMesh > Insert.
+
+![Add asset](/img/cours/spark/2-6.PNG)
+
+Sélectionner le nouveau faceMesh, puis cliquer sur le + à côté de Materials et choisir "maquillage".
+
+Enfin, ajouter une deformation et choisir l'objet déja utilisé pour le premier faceMesh.
+
+![Add asset](/img/cours/spark/2-7.PNG)
+
 
 
 
