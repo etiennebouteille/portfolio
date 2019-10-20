@@ -93,6 +93,59 @@ Enfin, ajouter une deformation et choisir l'objet déja utilisé pour le premier
 
 ![Add asset](/img/cours/spark/2-7.PNG)
 
+<br>
+
+Exercice 3 : Ajouter un objet flottant sur le visage
+===============
+
+Ouvrir un nouveau projet dans Blender.
+
+Supprimer tous les objets, puis importer faceMesh.obj. *Cette fois-ci nous allons utiliser le facemsh comme référence de taille pour modéliser notre objet*.
+
+Modéliser votre objet autour du viage.
+
+![Lunettes modélisée.](/img/cours/spark/3-1.PNG)
+
+Sélectionner le ou les objets modélisés et les exporter au format FBX. Au moment d'exporter, cocher la case "Selected objects".
+
+![Selected Objects](/img/cours/spark/3-2.PNG)
+
+Importer l'objet dans Spark, puis le déposer sur le FaceTracker.
+
+![Lunettes enfant faceTracker](/img/cours/spark/3-3.PNG)
+
+L'objet est maintenant attaché au visage. On peut le déplacer, tourner ou aggrandir avec les flèches de couleur si besoin.
+
+![Outils spark](/img/cours/spark/3-4.PNG)
+
+Créer un nouveau matériau. Add asset > Material. Importer ensuite une texture d'environment. Add Asset > Environment Texture > Machine Shop.
+
+![Add environment texture](/img/cours/spark/3-5.PNG)
+
+Changer le type de ShaderType en "Physically Based". Choisir une couleur jaune, puis glisser le curseur Metallic à 100%. Enfin, cocher la case "Environment".
+
+![PBR gold Shader Spark](/img/cours/spark/3-6.PNG)
+
+Ajouter une lumière à la scène. Add object > Environment Light > Insert.
+
+![Insert light](/img/cours/spark/3-7.PNG)
+
+Sélectionner environmentLight0 puis sous texture, choisir machineShop0.
+
+![Texture lumière](/img/cours/spark/3-8.PNG)
+
+Enfin, sélectionner votre objet puis lui ajouter le materiau que vous avez créé.
+
+![Lunettes finis](/img/cours/spark/3-9.PNG)
+
+
+
+
+
+
+
+
+
 
 
 
