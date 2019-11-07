@@ -138,18 +138,3 @@ Enfin, sélectionner votre objet puis lui ajouter le materiau que vous avez cré
 
 ![Lunettes finis](/img/cours/spark/3-9.PNG)
 
-
-Exercice 4
-================
-[télécharger la mouette qui vole](/files/mouettequivole.fbx)
-
-
-
-
-
-
-
-
-
-
-
