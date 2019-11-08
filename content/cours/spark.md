@@ -138,3 +138,7 @@ Enfin, sélectionner votre objet puis lui ajouter le materiau que vous avez cré
 
 ![Lunettes finis](/img/cours/spark/3-9.PNG)
 
+
+
+Suite du cours : [Cours 2](/cours/blender/)
+

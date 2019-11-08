@@ -53,9 +53,6 @@ Sur le côté de l'oiseau, sélectionner la face du milieu la plus haute. En vue
 
 
 
-[télécharger la mouette qui vole](/files/mouettequivole.fbx)
-
-
 
 
 
