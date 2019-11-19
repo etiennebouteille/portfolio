@@ -10,6 +10,9 @@ draft: false
 [mouette.blend](/files/mouette.blend)
 
 
+[mouette-armature.blend](/files/mouette-armature.blend)
+
+
 [mouette - projet spark](/files/mouette.zip)
 
 
