@@ -21,3 +21,5 @@ Exemple 4 : Utiliser le son du micro
 [github](https://gist.github.com/etiennebouteille/7cf940b43c90027f4b8746ce5fc787f0)
 
 
+Exemple 5 : Utiliser un boucle pour répéter une action, rotate pour faire tourner des objets
+[github](https://gist.github.com/etiennebouteille/139873624ded0bc0dafe2abf1ce6d40f)
