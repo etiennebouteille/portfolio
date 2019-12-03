@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8">
     {{ partial "includes" . }}
-    <title>List page</title>
+    <title>{{ .Title }}</title>
   </head>
   <body>
     {{ partial "header" .}}
     {{ partial "menu" .}}
-    list page
+    {{ partial "listpage" .}}
   </body>
 </html>
