@@ -5,5 +5,10 @@
               <a href="{{.Permalink}}">{{.Title}}</a>
           </li>
       {{ end }}
+      {{ range .Sections }}
+        <li>
+            <a href = "{{.Permalink}}">{{ .Title }}</a>
+        </li>
+      {{ end }}
       </ul>
   </div>
